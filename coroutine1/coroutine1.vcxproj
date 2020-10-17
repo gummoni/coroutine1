@@ -139,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="coroutine1.cpp" />
+    <ClCompile Include="coroutine1.c" />
+    <ClCompile Include="scheduler.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="scheduler.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
